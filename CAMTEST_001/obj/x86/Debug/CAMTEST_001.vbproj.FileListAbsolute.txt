@@ -1,0 +1,32 @@
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\bin\Debug\CAMTEST_001.exe
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\bin\Debug\CAMTEST_001.pdb
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\bin\Debug\CAMTEST_001.xml
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Form1.resources
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Resources.resources
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\CAMTEST_001.exe
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\CAMTEST_001.xml
+C:\Documents and Settings\RioSim\Local Settings\Application Data\Temporary Projects\CAMTEST_001\obj\x86\Debug\CAMTEST_001.pdb
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\bin\Debug\CAMTEST_001.exe
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\bin\Debug\CAMTEST_001.pdb
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\bin\Debug\CAMTEST_001.xml
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.vbprojResolveAssemblyReference.cache
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Form1.resources
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Resources.resources
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.vbproj.GenerateResource.Cache
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.exe
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.xml
+S:\temp_download\C#\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.pdb
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.exe
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.xml
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.pdb
+S:\CAMTEST_001\CAMTEST_001\bin\Debug\CAMTEST_001.exe
+S:\CAMTEST_001\CAMTEST_001\bin\Debug\CAMTEST_001.pdb
+S:\CAMTEST_001\CAMTEST_001\bin\Debug\CAMTEST_001.xml
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Form1.resources
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Resources.resources
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\GenerateResource.write.1.tlog

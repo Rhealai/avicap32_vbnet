@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CAMTEST_001", "CAMTEST_001\CAMTEST_001.vbproj", "{081DA77D-F4A7-48D7-8486-3DC7AF4259CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{081DA77D-F4A7-48D7-8486-3DC7AF4259CE}.Debug|x86.ActiveCfg = Debug|x86
+		{081DA77D-F4A7-48D7-8486-3DC7AF4259CE}.Debug|x86.Build.0 = Debug|x86
+		{081DA77D-F4A7-48D7-8486-3DC7AF4259CE}.Release|x86.ActiveCfg = Release|x86
+		{081DA77D-F4A7-48D7-8486-3DC7AF4259CE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
