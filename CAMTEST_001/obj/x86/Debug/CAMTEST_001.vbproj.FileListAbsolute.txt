@@ -30,3 +30,13 @@ S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Form1.resources
 S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Resources.resources
 S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\GenerateResource.read.1.tlog
 S:\CAMTEST_001\CAMTEST_001\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.exe
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.xml
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.pdb
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\bin\Debug\CAMTEST_001.exe
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\bin\Debug\CAMTEST_001.pdb
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\bin\Debug\CAMTEST_001.xml
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.vbprojResolveAssemblyReference.cache
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Form1.resources
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.Resources.resources
+D:\Users\Riolai\Documents\GitHub\avicap32_vbnet\CAMTEST_001\obj\x86\Debug\CAMTEST_001.vbproj.GenerateResource.Cache

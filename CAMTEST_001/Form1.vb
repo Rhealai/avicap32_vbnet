@@ -42,6 +42,9 @@ Public Class Form1
             Console.WriteLine(ex.ToString)
         End Try
 
+        Label3.Text = PictureBox1.Width & " X " & PictureBox1.Height
+        Label4.Text = PictureBox2.Width & " X " & PictureBox2.Height
+
     End Sub
 
     Private Function GrayBMP(ByVal bmp As Bitmap) As Bitmap
