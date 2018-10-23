@@ -4,26 +4,39 @@
 Public Class Form1
     Dim wc As Camera
 
+    Declare Function capGetDriverDescriptionA Lib "avicap32.dll" (ByVal wDriver As Short,
+        ByVal lpszName As String, ByVal cbName As Integer, ByVal lpszVer As String,
+        ByVal cbVer As Integer) As Boolean
+
+
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         wc = New Camera(PictureBox1)
         wc.Start()
 
         PictureBox2.SizeMode = PictureBoxSizeMode.AutoSize
+
+        ' Connect to the device.
+
+        Dim strName As String = Space(100)
+        Dim strVer As String = Space(100)
+        Dim bReturn As Boolean
+        Dim x As Integer = 0
+
+        ' Load name of all avialable devices into the lstDevices .
+
+        Do
+            '   Get Driver name and version
+            bReturn = capGetDriverDescriptionA(x, strName, 100, strVer, 100)
+            ' If there was a device add device name to the list 
+            If bReturn Then lstDevices.Items.Add(strName.Trim)
+            x += 1
+        Loop Until bReturn = False
+
+
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 
-        PictureBox2.SizeMode = PictureBoxSizeMode.AutoSize
-        Dim Mybmp As Image
-        Dim Mybmp2 As Image
-        'wc.CopyToClipBoard(Mybmp)
-        'wc.StopWebCam()
-        'wc.Start()
-        'Mybmp2 = Clipboard.GetImage()
-        Mybmp = PictureBox1.Image
-        Mybmp2 = Mybmp.Clone
-        Mybmp2.RotateFlip(RotateFlipType.Rotate180FlipNone)
-        PictureBox2.Image = Mybmp2
 
     End Sub
 
@@ -59,6 +72,7 @@ Public Class Form1
         Next
         Return bmp
     End Function
+
 
 End Class
 
@@ -103,6 +117,8 @@ Public Class Camera
     'api
     Private Declare Function capCreateCaptureWindowA Lib "avicap32.dll" (ByVal Name As String, ByVal Style As Integer, ByVal x As Integer, ByVal y As Integer, ByVal Width As Integer, ByVal Height As Integer, ByVal hWndParent As IntPtr, ByVal nID As Integer) As IntPtr
     Private Declare Function SendMessageA Lib "user32" (ByVal hWnd As IntPtr, ByVal msg As Integer, ByVal wParam As Integer, ByVal filePath As String) As Integer
+
+
 #End Region
 
 #Region "對外方法"
@@ -114,7 +130,7 @@ Public Class Camera
 
     '開始顯示影像   
     Public Sub Start()
-        hWndC = capCreateCaptureWindowA("WebCam", WS_CHILD Or WS_VISIBLE, 0, 0, myPic.Width, myPic.Height, myPic.Handle, 0)
+        hWndC = capCreateCaptureWindowA("WebcamCapture", WS_CHILD Or WS_VISIBLE, 0, 0, myPic.Width, myPic.Height, myPic.Handle, 0)
 
         If hWndC.ToInt32() <> 0 Then
             '取得與視訊的聯繫
@@ -152,6 +168,7 @@ Public Class Camera
         End If
 
     End Sub
+
 #End Region
 
 End Class

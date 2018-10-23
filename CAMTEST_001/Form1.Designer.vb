@@ -31,6 +31,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.lstDevices = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -101,11 +102,20 @@ Partial Class Form1
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "-"
         '
+        'lstDevices
+        '
+        Me.lstDevices.FormattingEnabled = True
+        Me.lstDevices.Location = New System.Drawing.Point(14, 12)
+        Me.lstDevices.Name = "lstDevices"
+        Me.lstDevices.Size = New System.Drawing.Size(218, 20)
+        Me.lstDevices.TabIndex = 3
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(877, 637)
+        Me.Controls.Add(Me.lstDevices)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -129,4 +139,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Protected Friend WithEvents lstDevices As ComboBox
 End Class
